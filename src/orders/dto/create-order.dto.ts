@@ -15,5 +15,5 @@ export class CreateOrderDto {
 
   @IsOptional()
   @IsNumber()
-  takeProfit?: number; // тейкпрофіт (optional)
+  takeProfit?: number;
 }
